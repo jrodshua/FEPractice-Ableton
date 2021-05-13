@@ -1,0 +1,193 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #ffffff;
+  font-family: "Jost", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 0.7em;
+  font-weight: bold;
+}
+
+/* Nav h3 More+ Menu*/
+/* .nav-h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+} */
+
+/* Footer h3 Education, Community, etc*/
+/* .footer-h3 {
+  margin: 0;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0;
+} */
+
+h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header-main {
+  padding-top: 1.25rem;
+}
+
+.nav-main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  padding: 0 20px;
+}
+
+.nav-list-container {
+  display: flex;
+}
+
+/* .logo-main {
+  margin-top: auto;
+  margin-right: 26px;
+} */
+
+.logo-svg {
+  display: block;
+  width: 3.75em;
+  height: 1.75em;
+  margin-right: 26px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list-item {
+  display: inline-block;
+}
+
+/* Main Nav List Item Link, Live, Push, Link, Shop, etc */
+.nav-link {
+  color: #000000;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 500;
+  padding: 0 10px;
+  margin: 0 5px;
+}
+
+.nav-cta-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-cta {
+  font-weight: 500;
+  color: blue;
+  padding: 0 10px;
+  font-size: 1.25rem;
+}
+
+.nav-login {
+  color: #000;
+  font-size: 1rem;
+  padding-left: 10px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.nav-secondary-container {
+  border-top: 2px solid #eee;
+  padding: 20px 40px;
+  height: 4.4rem;
+}
+
+.nav-secondary-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  padding-right: 15px;
+  margin-right: 15px;
+  line-height: 1.5;
+}
+
+.active-link {
+  color: #ff764d;
+}
+
+.hero-section {
+  background-image: url("https://ableton-production.imgix.net/about/header.jpg?auto=format&dpr=2&fit=crop&fm=jpg&h=960&ixjsv=1.1.3&q=50&w=1334");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 90vh;
+  margin: 0 8vw 8vw;
+}
+
+.hero-header {
+  font-size: 8.5rem;
+  font-weight: 500;
+  color: #fd5948;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media (min-width: 1600px) {
+  body {
+    background-color: #f3f3f3;
+  }
+
+  .page-wrapper {
+    max-width: 1600px;
+    margin: auto;
+    background-color: #fff;
+  }
+
+  .hero-section {
+    margin: 0 133px 133px;
+    max-height: 100%;
+  }
+}
